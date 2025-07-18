@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@yield('title', 'TokoHitam')</title>
+  <title>@yield('title', 'BlazkStore')</title>
 
   {{-- Bootstrap CSS --}}
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -63,10 +63,11 @@
   {{-- Navbar --}}
   <nav class="navbar navbar-dark bg-dark sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="/">TokoHitam</a>
+      <a class="navbar-brand fw-bold" href="/">BlazkStore</a>
       <ul class="navbar-nav flex-row">
         <li class="nav-item mx-2"><a class="nav-link" href="/">Produk</a></li>
         <li class="nav-item mx-2"><a class="nav-link" href="/cart">Keranjang</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="/about">Tentang Kami</a></li> {{-- ✅ Tambahan menu --}}
       </ul>
     </div>
   </nav>
